@@ -1,0 +1,17 @@
+# Ignore everything
+/*
+
+# Allow only these directories and files
+!Portswigger/
+!CTF/
+!assets/
+!README.md
+!.gitignore
+
+# Ignore internal Obsidian and system files even in allowed folders
+.obsidian/
+.trash/
+*.canvas
+*.zip
+Thumbs.db
+desktop.ini
