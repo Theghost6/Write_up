@@ -1,0 +1,13 @@
+# Node & VitePress
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+
+# Obsidian & Editor system files
+.obsidian/
+.trash/
+*.canvas
+*.zip
+Thumbs.db
+desktop.ini
+.DS_Store

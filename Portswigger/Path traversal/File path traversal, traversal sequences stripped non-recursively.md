@@ -1,0 +1,3 @@
+# Phân tích và khai thác
+Ở lab này load ảnh thônt qua thông số `filename` và ta lại khai thác lỗ hổng file path traversal ở tham số này. Và ta thử travesal bằng cách `../../../etc/passwd` thì nó bị trả về method `400` -> có thể nó đã bị chặn hoặc xóa `../`![Pasted image 20250920151023.png](../../assets/portswigger/Pasted%20image%2020250920151023.png)
+Tuy nhiên lab này làm việc không triệt để. Củ thể với `....//` thì nó cũng chỉ xóa `../` ở giữa và kết quả còn lại nó vẫn là `../` -> ta có thể bypass được traverse. Sử dụng payload làc `....//....//....//etc/passwd` là hoàn thành lab![Pasted image 20250920151650.png](../../assets/portswigger/Pasted%20image%2020250920151650.png)

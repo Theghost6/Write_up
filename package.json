@@ -1,0 +1,29 @@
+{
+  "name": "write_up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theghost6/Write_up.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Theghost6/Write_up/issues"
+  },
+  "homepage": "https://github.com/Theghost6/Write_up#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
